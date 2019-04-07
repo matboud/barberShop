@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/setProfile.css">
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" href="boot/css/bootstrap.css">
+    <script src="js/ajax.min.js"></script>
+    <title>BARBER SHOP</title>
+</head>
+
+<body class="">
+    <h4 id="ttl">Mon profile :</h4>
+    <div id="back">
+        <form action="signup.html">
+            <input type="submit" id="bttback" value="<">
+        </form>
+    </div>
+    <div id="container">
+        <div id="cntimg">
+            <p>Télécharger une photo:</p>
+            <form id="form1" runat="server">
+                <input type='file' id="imgInp" />
+        </div>
+        <center>
+            <img id="blah" src="#" alt="your image" />
+        </center>
+        </form>
+        <h4 id="uuu">Nom Prenom</h4>
+        <h6>Ville</h6>
+        <textarea placeholder="Présente toi:" id="" cols="" rows="4px"></textarea>
+        <!-- comptence -->
+        <div id="competence">
+            <h5>Compétences :</h5>
+            <div class="tags">Dégradé</div>
+            <div class="tags">Barbe</div>
+            <div class="tags">Couleur</div>
+            <!-- <div class="tags add_comp">+</div> -->
+            <input class="add_comp" type="button" value="+">
+        </div>
+        <hr>
+
+        <!-- bookphotos -->
+        <div id="book_photos">
+            <h5>Book photos :</h5>
+            <div class="pics">
+                <img src="img/bs1.jpg">
+            </div>
+            <div class="pics">
+                <img src="img/bs2.jpg">
+            </div>
+            <div class="pics">
+                <img src="img/bs3.jpeg">
+            </div>
+            <div class="pics">
+                <img src="img/bs4.jpg">
+            </div>
+            <div class="pics" id="up">
+                <img src="img/upload.png">
+            </div>
+        </div>
+        <form action="prestataire.html">
+            <input type="submit" id="pay" value="Valider">
+        </form>
+    </div>
+
+
+
+
+    <script>
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+
+            }
+        }
+        document.getElementById("blah").style.display = "none";
+
+        $("#imgInp").change(function () {
+            readURL(this);
+            document.getElementById("cntimg").style.display = "none";
+            document.getElementById("blah").style.display = "block";
+        });
+    </script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+#bd {
+  background-color: #ecf0f1;
+}
+#container {
+  padding-top: 70px;
+}
+
+#back {
+  width: 50px;
+  height: 43px;
+  font-size: 33px;
+  color: white;
+  margin-top: -54px;
+  margin-left: 9px;
+  font-weight: 100;
+}
+
+#container {
+  width: 100%;
+  padding: 5px;
+  padding-top: 30px;
+}
+#profilepic {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #34495e;
+  border-radius: 100%;
+  margin: auto;
+  background-image: url(../img/gentleman.jpg);
+  background-size: 100%;
+}
+#container h5 {
+  text-align: center;
+  padding-top: 10px;
+}
+#stars {
+  /* background-color: aqua; */
+  text-align: center;
+  padding-bottom: 10px;
+}
+.description {
+  text-align: center;
+}
+#skills {
+  width: 100%;
+  background-color: #fff;
+}
+.tag {
+  padding: 5px;
+  background-color: #3498db;
+  color: white;
+  /* position: absolute; */
+}
+#competence {
+  width: 100%; /* border: 1px solid #34495e; */
+  padding: 5px;
+  padding-top: 15px;
+}
+#competence h5 {
+  text-align: left;
+  font-weight: 400;
+}
+#competence .tags {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+#container_contact {
+  width: 100%;
+}
+#container_contact .butt {
+  width: 49%;
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  height: 35px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+#container_contact #contacter {
+  background-color: #ecf0f1;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+#said {
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 20px;
+}
+#said img {
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#saidpic {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin: auto;
+  background-image: url(../img/bs1.jpg);
+  background-size: 100%;
+}
+#said p {
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 700;
+}
+#said .text {
+  font-weight: 400;
+}
+.avisT {
+  margin-bottom: 15px;
+}

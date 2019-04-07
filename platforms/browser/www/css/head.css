@@ -1,0 +1,22 @@
+#bttback {
+  background-color: #ffffff00;
+  color: white;
+  border: none;
+}
+body #ttl {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #3498db,
+    #3983ba,
+    #3a6f9a,
+    #385c7b,
+    #34495e
+  );
+  padding-top: 12px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 100;
+  height: 53px;
+  margin: 0;
+}

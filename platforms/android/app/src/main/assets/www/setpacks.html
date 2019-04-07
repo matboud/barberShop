@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/setpacks.css">
+    <link rel="stylesheet" type="text/css" href="css/head.css">
+    <link rel="stylesheet" href="boot/css/bootstrap.css">
+    <title>BARBER SHOP</title>
+</head>
+
+<body>
+    <h4 id="ttl">Choix du packs :</h4>
+    <div id="back">
+        <form action="signup.html">
+            <input type="submit" id="bttback" value="<">
+        </form>
+    </div>
+    <div id="container">
+
+        <div class="packs pk1">
+            <h6>STARTER</h6>
+            <h2>--$</h2>
+            <button>SELECT</button>
+        </div>
+        <div class="packs pk2">
+            <h6>MEDIUM</h6>
+            <h2>--$</h2>
+            <button>SELECT</button>
+        </div>
+        <div class="packs pk3">
+            <h6>FULL</h6>
+            <h2>--$</h2>
+            <button>SELECT</button>
+        </div>
+
+
+
+        <input type="radio" name="renouvelement" id="" checked> Renouvellement automatique
+        <br>
+        <input type="radio" name="renouvelement" id=""> Paiement mensuel
+
+        <br>
+        <br>
+        <br>
+
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <img src="img/credit-card.svg" width="20px">
+                </div>
+            </div>
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="**** **** **** ****">
+        </div>
+        <div id="container_card">
+            <div class="card_side">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <img src="img/calendar.svg" width="20px">
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="MM / YY">
+                </div>
+            </div>
+            <div class="card_side">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <img src="img/lock.svg" width="20px">
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="CVC">
+                </div>
+            </div>
+        </div>
+        <form action="recap.html">
+            <input type="submit" id="pay" value="Paiement">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

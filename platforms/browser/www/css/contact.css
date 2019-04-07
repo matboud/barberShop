@@ -1,0 +1,111 @@
+#bd {
+  background-color: #ecf0f1;
+}
+body h4 {
+  text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #3498db,
+    #3983ba,
+    #3a6f9a,
+    #385c7b,
+    #34495e
+  );
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 100;
+  height: 53px;
+  margin: 0;
+}
+#back {
+  width: 50px;
+  height: 43px;
+  font-size: 33px;
+  color: white;
+  margin-top: -54px;
+  margin-left: 9px;
+  font-weight: 100;
+}
+#container {
+  padding-top: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+}
+#him {
+  margin-left: 2%;
+}
+#him .recv {
+  width: 60%;
+  background-color: #34495e;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  float: right;
+}
+#him .imgh {
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/bs1.jpg);
+  background-size: 100%;
+  border-radius: 100%;
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#me {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#me .imgme {
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/gentleman.jpg);
+  background-size: 100%;
+  border-radius: 100%;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+#me .senme {
+  width: 60%;
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  padding: 5px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#footer .textfoot {
+  width: 80%;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #3498db;
+  padding: 10px;
+}
+#footer .sendMessage {
+  /*width: 40px;
+  */
+  height: 40px;
+  border: 1px solid #3498db;
+  border-radius: 50px;
+  background-color: #3498db;
+  color: white;
+  float: right;
+  margin-top: 5px;
+  /* padding-left: 11px; */
+}
+#footer form {
+  float: right;
+}

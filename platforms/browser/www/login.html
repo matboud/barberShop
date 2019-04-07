@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="boot/css/bootstrap.css">
+    <title>BARBER SHOP</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="login_logo"></div>
+        <h4>Se connecter</h4>
+        <form action="prestataire.html" class="sign-in">
+            <input type="text" name="name" class="name" placeholder="Nom d'utilisateur">
+            <input type="password" name="password" class="password" placeholder="Password">
+            <p>Mot de passe oublier?</p>
+            <input type="submit" value="Se connecter" class="sub">
+            <div id="container_rss">
+                <div class="fb">
+                    <center>
+                        <img src="img/fb.png" width="20px" alt="">
+                    </center>
+
+                </div>
+                <div class="gl">
+                    <center>
+                        <img src="img/ggl.png" width="20px" alt="">
+                    </center>
+                </div>
+            </div>
+            <h6>Vous étes nouveau?</h6>
+        </form>
+        <form action="signup.html">
+            <input type="submit" value="Inscription" class="sign-up">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
